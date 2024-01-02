@@ -1,0 +1,15 @@
+header {
+    background-color: #003049;
+    height: 55px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+}
+
+#site-title {
+    color: white;
+}
+
+html {
+    background-color: #EAE2B7;
+}
