@@ -12,14 +12,14 @@
         <p id="site-title">Movement Metrics</p>
     </header>
     <section>
-        <form>
-            <input type="text" placeholder="Goal Title">
-            <input type="text" placeholder="Goal Amount">
+        <form id="goal-form">
+            <input id="goal-title" type="text" placeholder="Goal Title">
+            <input id="goal-amount" type="text" placeholder="Goal Amount">
             <button>Add</button>
         </form>
         <div id="goal-container"></div>
     </section>
-
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
